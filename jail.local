@@ -1,2 +1,11 @@
 [DEFAULT]
 ignoreip = 127.0.0.1/8 ::1 192.168.1.0/24 82.66.163.128
+
+[apache-noscript]
+enabled  = true
+port     = http,https
+filter   = apache-noscript
+logpath  = /var/snap/nextcloud/current/logs/apache_error.log
+findtime = 10m
+maxretry = 3
+bantime  = 1h
