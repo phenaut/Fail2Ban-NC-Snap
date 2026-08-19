@@ -1,5 +1,5 @@
 [DEFAULT]
-ignoreip = 127.0.0.1/8 ::1 192.168.1.0/24 82.66.163.128
+ignoreip = 127.0.0.1/8 ::1 192.168.1.0/24 <Your Public IP>
 
 [apache-noscript]
 enabled  = true
